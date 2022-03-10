@@ -1,8 +1,8 @@
 public class user  {
-    public string name ;
-    public string cognome;
-    public string email;
-    public string password;
-    public string username;
+    public String name ;
+    public String cognome;
+    public String email;
+    public String password;
+    public String username;
     public boolean registrato;
 }
