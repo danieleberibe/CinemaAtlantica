@@ -1,5 +1,8 @@
-public static void name() {
-    //lol
-    //bella pe te 
-    //prova
+public class user  {
+    public string name ;
+    public string cognome;
+    public string email;
+    public string password;
+    public string username;
+    public boolean registrato;
 }
