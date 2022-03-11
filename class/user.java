@@ -14,6 +14,7 @@ public User (String nome2, String cognome2, String email2, String passwordUtente
     email2 = email;
     passwordUtente2 = passwordUtente;
     username2 = username;
+	signed2 = signed;
 
 }
 
