@@ -1,8 +1,8 @@
-public class prenotazione {
+public class Prenotazione {
     private int idPrenotazione;
     private int prezzoPrenotazione;
 
-    public prenotazione (int idPrenotazione2, int prezzoPrenotazione2 ) { 
+    public Prenotazione (int idPrenotazione2, int prezzoPrenotazione2 ) { 
 
       idPrenotazione2 = idPrenotazione;
       prezzoPrenotazione2 = prezzoPrenotazione;

@@ -1,4 +1,4 @@
-public class user  {
+public class User  {
     private String nome ;
     private String cognome;
     private String email;
@@ -7,7 +7,7 @@ public class user  {
     private boolean signed;
 
 
-public user (String nome2, String cognome2, String email2, String passwordUtente2, String username2, boolean signed2 ) { 
+public User (String nome2, String cognome2, String email2, String passwordUtente2, String username2, boolean signed2 ) { 
 
     nome2 = nome;
     cognome2 = cognome;
