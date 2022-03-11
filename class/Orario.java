@@ -1,7 +1,7 @@
 public class Orario {
     private int orario;
     private int data;
-}
+
 
 public Orario (int orario2, int data2 ) { 
 
@@ -26,11 +26,11 @@ public void setData(int data2) {
     data2 = data;
 }
 
-public calcoloDisponibilita() {
+public void calcoloDisponibilita() {
     
 }
 
-public calcoloPrezzo() {
+public void calcoloPrezzo() {
 
 }
 }
