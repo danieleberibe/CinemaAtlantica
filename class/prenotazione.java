@@ -24,14 +24,4 @@ public class Prenotazione {
         prezzoPrenotazione2 = prezzoPrenotazione;
     }
 
-
-<<<<<<< HEAD
- public calcoloDisponibilita(){
- }
-
- public calcoloPrezzo(){
-
- }
-
-
  }
