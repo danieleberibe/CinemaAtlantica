@@ -26,7 +26,6 @@ public class Prenotazione {
 
 
  public calcoloDisponibilita(){
-    
  }
 
  public calcoloPrezzo(){

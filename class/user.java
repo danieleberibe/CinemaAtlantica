@@ -64,5 +64,4 @@ public void setSigned(boolean signed2) {
 	signed2 = signed;
 }
 
->>>>>>> Mario
 }
