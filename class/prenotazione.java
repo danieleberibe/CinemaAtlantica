@@ -25,11 +25,13 @@ public class Prenotazione {
     }
 
 
+<<<<<<< HEAD
  public calcoloDisponibilita(){
  }
 
  public calcoloPrezzo(){
 
  }
+
 
  }
