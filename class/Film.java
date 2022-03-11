@@ -10,6 +10,17 @@ public class Film {
        descrizione = desc;
        durata = dur;
    }
+   public enum Generi {
+    HORROR,
+    ROMANTICO,
+    AZIONE,
+    THRILLER,
+    FANTASCIENZA,
+    COMICO,
+    ANIME,
+    AVVENTURA,
+    DRAMMA
+  }
 
    public String getName(){
     return name;
