@@ -24,6 +24,4 @@ public class Prenotazione {
         prezzoPrenotazione2 = prezzoPrenotazione;
     }
 
-
- 
  }
