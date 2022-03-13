@@ -5,8 +5,8 @@ public class Orario {
 
 public Orario (int orario2, int data2 ) { 
 
-    orario2 = orario;
-    data2 = data;
+    orario = orario2;
+    data = data2;
 
 }
 
@@ -15,7 +15,7 @@ public int getOrario() {
 }
 
 public void setOrario(int orario2) {
-    orario2 = orario;
+    orario = orario2;
 }
 
 public int getData(){
@@ -23,7 +23,7 @@ public int getData(){
 }
 
 public void setData(int data2) {
-    data2 = data;
+    data = data2;
 }
 
 public void calcoloDisponibilita() {

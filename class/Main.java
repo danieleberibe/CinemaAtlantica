@@ -9,11 +9,12 @@ public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     boolean x  = true;
     User a = new User();
+    
     while (a.getEmail()==null){ 
-        System.out.println("1-Login \n2-Resgistrati");
+        System.out.println(" 1-Login \n 2-Registrati \n 3-Generi ");
         String risposta = scanner.nextLine();
-        if ( risposta.equals("1")){ // Login
 
+        if ( risposta.equals("1")){ // Login
             System.out.println("Inserisci email ");
             String email = scanner.nextLine();
             System.out.println("Inserisci Password ");
@@ -23,9 +24,8 @@ public static void main(String[] args) {
                 a.setPasswordutente(password);
 
             }
-
-
         }
+
         else if (risposta.equals("2")){   //Registrazione
                   
             System.out.println("Inserisci email ");
@@ -40,6 +40,10 @@ public static void main(String[] args) {
                 utenti.put(email, password);
                 System.out.println("Utente Creato ");
             }
+        }
+        else if (risposta.equals("3")){
+            System.out.println(java.util.Arrays.asList(Film.Generi.values()));
+                  
         }
     }
     System.out.println("Benvenuto " + a.getEmail());
