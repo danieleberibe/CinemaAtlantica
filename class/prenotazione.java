@@ -4,8 +4,8 @@ public class Prenotazione {
 
     public Prenotazione (int idPrenotazione2, int prezzoPrenotazione2 ) { 
 
-      idPrenotazione2 = idPrenotazione;
-      prezzoPrenotazione2 = prezzoPrenotazione;
+      idPrenotazione = idPrenotazione2;
+      prezzoPrenotazione = prezzoPrenotazione2;
     }
 
     public int getIdPrenotazione() {
@@ -13,7 +13,7 @@ public class Prenotazione {
     }
     
     public void setIdPrenotazione(int idPrenotazione2) {
-        idPrenotazione2 = idPrenotazione;
+        idPrenotazione = idPrenotazione2;
     }
 
     public int getPrezzoPrenotazione() {
@@ -21,7 +21,7 @@ public class Prenotazione {
     }
     
     public void setPrezzoPrenotazione(int prezzoPrenotazione2) {
-        prezzoPrenotazione2 = prezzoPrenotazione;
+        prezzoPrenotazione = prezzoPrenotazione2;
     }
 
  }

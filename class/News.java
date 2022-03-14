@@ -4,8 +4,8 @@ public class News {
 
 
     public News(int idNews2, String tipoNews2) {
-        idNews2 = idNews;
-        tipoNews2 = tipoNews;
+        idNews = idNews2;
+        tipoNews = tipoNews2;
     }
 
     public int getIdNews() {

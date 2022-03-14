@@ -4,9 +4,9 @@ public class Sala {
     private int postiOccupati;
 
     public Sala(int numeroSala2, int numeroPostiTotali2, int postiOccupati2) {
-      numeroSala2 = numeroSala;
-      numeroPostiTotali2 = numeroPostiTotali;
-      postiOccupati2 = postiOccupati;
+      numeroSala = numeroSala2;
+      numeroPostiTotali = numeroPostiTotali2;
+      postiOccupati = postiOccupati2;
     }
 
 
@@ -15,14 +15,14 @@ public class Sala {
     }
     
     public void setnumeroSala(int numeroSala2) {
-        numeroSala2 = numeroSala;
+        numeroSala = numeroSala2;
     }
     public int getnumeropostiTotali() {
         return numeroSala;
     }
 
     public void setnumeroPostiTotali(int numeroPostiTotali2) {
-        numeroPostiTotali2 = numeroPostiTotali;
+        numeroPostiTotali = numeroPostiTotali2;
     }
 
     public int getpostiOccupati() {
@@ -30,7 +30,7 @@ public class Sala {
     }
 
     public void setpostiOccupati(int postiOccupati2) {
-        postiOccupati2 = postiOccupati;
+        postiOccupati = postiOccupati2;
     }
 
 

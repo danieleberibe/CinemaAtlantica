@@ -6,15 +6,19 @@ public class User  {
     private String username;
     private boolean signed;
 
+	public User (){
+
+	}
 
 public User (String nome2, String cognome2, String email2, String passwordUtente2, String username2, boolean signed2 ) { 
+	nome = nome2;
+	cognome = cognome2;
+	email = email2;
+	passwordUtente = passwordUtente2;
+	username = username2;
+	signed = signed2;
 
-    nome2 = nome;
-    cognome2 = cognome;
-    email2 = email;
-    passwordUtente2 = passwordUtente;
-    username2 = username;
-	signed2 = signed;
+    
 
 }
 
@@ -23,7 +27,7 @@ public String getNome() {
 }
 
 public void setNome(String nome2) {
-	nome2 = nome;
+	nome = nome2;
 }
 
 public String getCognome() {
@@ -31,14 +35,14 @@ public String getCognome() {
 }
 
 public void setCognome(String cognome2) {
-	cognome2 = cognome;
+	cognome = cognome2;
 }
 public String getEmail() {
-	return nome;   
+	return email;   
 }
 
 public void setEmail(String email2) {
-	email2 = email;
+	email = email2;
 }
 
 public String getPasswordutente() {
@@ -46,7 +50,7 @@ public String getPasswordutente() {
 }
 
 public void setPasswordutente(String passwordUtente2) {
-	passwordUtente2 = passwordUtente;
+	passwordUtente = passwordUtente2;
 }
 
 public String getUsername() {
@@ -54,7 +58,7 @@ public String getUsername() {
 }
 
 public void setUsername(String username2) {
-	username2 = username;
+	username = username2;
 }
 
 public boolean getSigned() {
@@ -62,7 +66,7 @@ public boolean getSigned() {
 }
 
 public void setSigned(boolean signed2) {
-	signed2 = signed;
+	signed = signed2;
 }
 
 }

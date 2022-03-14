@@ -5,9 +5,9 @@ public class Offerta {
     private int scadenzaOfferta;
 
     public Offerta(int idOfferta2, String tipoOfferta2, int scadenzaOfferta2) {
-        idOfferta2 = idOfferta;
-        tipoOfferta2 = tipoOfferta;
-        scadenzaOfferta2 = scadenzaOfferta;
+        idOfferta = idOfferta2;
+        tipoOfferta = tipoOfferta2;
+        scadenzaOfferta = scadenzaOfferta2;
     }
 
 
