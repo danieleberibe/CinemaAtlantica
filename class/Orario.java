@@ -1,7 +1,7 @@
 public class Orario {
     private int orario;
     private int data;
-}
+
 
 public Orario (int orario2, int data2 ) { 
 
