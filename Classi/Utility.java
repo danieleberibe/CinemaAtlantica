@@ -1,12 +1,10 @@
-import java.lang. *;
-
 
 public class Utility {
 
 private static Utility istanza = null;
-public static Utility utility(){
+public static Utility Utility(){
     if (istanza == null){
-        istanza = new utility();
+        istanza = new Utility();
         return istanza;
     }
 }
@@ -24,4 +22,15 @@ public static Utility utility(){
 
     }
 
+    public static void PassVer()(String PassCheck){
+        if (PassCheck.length() < 8){
+            System.out.println("La password è troppo corta!");
+        }
+    }
+
+    public static passUpperCheck(String PassCheck){
+    for (int i = 0; i<lenght-1; i++){
+        lenght = PassCheck;
+    }
+}
 }
