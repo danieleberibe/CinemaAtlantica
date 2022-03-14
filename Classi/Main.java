@@ -10,9 +10,11 @@ public static void main(String[] args) {
     boolean x  = true;
     User a = new User();
     
+    
     while (a.getEmail()==null){ 
         System.out.println(" 1-Login \n 2-Registrati \n 3-Generi ");
         String risposta = scanner.nextLine();
+        System.out.println();
 
         if ( risposta.equals("1")){ // Login
             System.out.println("Inserisci email ");
@@ -30,15 +32,29 @@ public static void main(String[] args) {
                   
             System.out.println("Inserisci email ");
             String email = scanner.nextLine();
+            
+            if(Utility.verificaCorrettezzaEmail(email)) {
+                System.out.println("email giusta");
+            
        
-            if (utenti.get(email) != null){
-                System.out.println("Email gia esistente ");
+                if (utenti.get(email) != null){
+                    System.out.println("Email gia esistente ");
+                }
+                else{
+                    System.out.println("Inserisci Password ");
+                    String password = scanner.nextLine();
+                    if (Utility.verificaCorrettezzaPassword(password)){
+                        System.out.println("Try Again!");
+                    }
+                    else{
+                        utenti.put(email, password);
+                        System.out.println("Utente Creato ");
+                    }
+                    
+                }
             }
             else{
-                System.out.println("Inserisci Password ");
-                String password = scanner.nextLine();
-                utenti.put(email, password);
-                System.out.println("Utente Creato ");
+                System.out.println("Email sbagliata");
             }
         }
         else if (risposta.equals("3")){
