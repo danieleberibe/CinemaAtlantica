@@ -69,19 +69,33 @@ public class Utility {
         
         }
         public static boolean verificaCorrettezzaPassword (String psw) {
-            if (psw.length() < 8){
-                System.out.println("Inserisci almeno 8 caratteri");
-                return true;
+            boolean carattereSpeciale = false;
+            boolean caps = false;
+            boolean numero = false;
+
+            if (psw.length() >= 4){
+                for(int i= 0; i<psw.length()-1; i++ ){
+                    if((int)psw.charAt(i) >=33 && (int)psw.charAt(i) <=47|| //controllo carattere speciale
+                       (int)psw.charAt(i) >=58 && (int)psw.charAt(i) <=64||
+                       (int)psw.charAt(i) >=91 && (int)psw.charAt(i) <=96||
+                       (int)psw.charAt(i) >=123 && (int)psw.charAt(i) <=126){ 
+                        carattereSpeciale=true;
+                    }
+                    if((int)psw.charAt(i) >=65 && (int)psw.charAt(i) <=90){ //controllo Maiuscola
+                        caps=true;
+                    }
+                    if((int)psw.charAt(i) >=48 && (int)psw.charAt(i) >=57){ //controllo numero
+                        numero=true;
+                    }
+                }    
             }
-            if(psw.contains("!") == false){
-                System.out.println("Inserisci almeno un Carattere Speciale");
-                return true;
+            else{
+                System.out.println("psw troppo corta");
             }
-            if(psw.contains("QWERTYUIOPLKJHGFDSAZXCVBNM") == false){
-                System.out.println("Inserisci un carattere Maiuscolo");     
-                return true;
+            if(carattereSpeciale&&caps&&numero){
+                return false;
             }
-            return false;
+            return true;
 
         }
     }
