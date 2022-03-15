@@ -10,7 +10,7 @@ public static void main(String[] args) {
     boolean x  = true;
     User a = new User();
     
-    while (a.getEmail()==null){ 
+ /*   while (a.getEmail()==null){ 
         System.out.println(" 1-Login \n 2-Registrati \n 3-Generi ");
         String risposta = scanner.nextLine();
 
@@ -47,8 +47,9 @@ public static void main(String[] args) {
         }
     }
     System.out.println("Benvenuto " + a.getEmail());
+*/
 
-     PassVer("ciao");
+   Utility.PassUpperCaseCheck("CIAO");
     
 }
 }
