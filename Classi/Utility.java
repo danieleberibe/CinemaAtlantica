@@ -74,7 +74,7 @@ public class Utility {
             boolean numero = false;
 
             if (psw.length() >= 4){
-                for(int i= 0; i<psw.length()-1; i++ ){
+                for(int i= 0; i<psw.length(); i++ ){
                     if((int)psw.charAt(i) >=33 && (int)psw.charAt(i) <=47|| //controllo carattere speciale
                        (int)psw.charAt(i) >=58 && (int)psw.charAt(i) <=64||
                        (int)psw.charAt(i) >=91 && (int)psw.charAt(i) <=96||
@@ -100,4 +100,3 @@ public class Utility {
         }
     }
 
-// 

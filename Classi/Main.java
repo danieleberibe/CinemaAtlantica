@@ -1,15 +1,17 @@
 import java.util.Dictionary;
 import java.util.Hashtable;
 import java.util.Scanner; 
+import java.io.*;
 
 public class Main{
 
-public static void main(String[] args) {
+public static void main(String[] args) throws FileNotFoundException,IOException {
     Dictionary <String,String> utenti = new Hashtable <String,String>();
     Scanner scanner = new Scanner(System.in);
     boolean x  = true;
     User a = new User();
-    
+ 
+
     
     while (a.getEmail()==null){ 
         System.out.println(" 1-Login \n 2-Registrati \n 3-Generi ");
