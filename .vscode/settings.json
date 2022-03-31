@@ -3,5 +3,26 @@
     "java.project.sourcePaths": [
         "class",
         "Classi"
+    ],
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "askForPassword": true,
+            "driver": "MySQL",
+            "name": "cinema",
+            "group": "cinemagroup",
+            "database": "cinema",
+            "username": "root"
+        }
+    ],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\Daniele\\OneDrive\\Desktop\\mysql-connector-java-8.0.28.jar",
+        "c:\\Users\\Daniele\\OneDrive\\Desktop\\mssql-jdbc-10.2.0.jre17.jar"
     ]
 }

@@ -17,9 +17,9 @@ public User (String nome2, String cognome2, String email2, String passwordUtente
 	passwordUtente = passwordUtente2;
 	username = username2;
 	signed = signed2;
-
-    
-
+}
+public String toString(){
+	return this.nome;
 }
 
 public String getNome() {
